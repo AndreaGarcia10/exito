@@ -1,0 +1,3363 @@
+body{
+	overflow-x: hidden;
+}
+
+.grid{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 12.5% 12.5% 25% 25% 25%;
+	grid-template-rows: 15% 15% 15% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	background-color: white ; 
+	grid-gap: 5px;
+	padding-left:1%;
+	padding-right: 2%;
+}
+
+
+/*barra inicial*/
+.grid-item1{
+	background-color: #BF0300;
+	font-size: 30px;
+	grid-area: 1 / 1 / 1 / 6;
+
+}
+
+.grid-item1 img{
+	width: 25%;
+	height: 100%;
+	float: right;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius:  50%;
+	border: 3px solid white;                                 
+}
+
+.grid-item1 p{
+	position: relative;
+	font-size: 25px;
+    color: white;
+    float: left;
+    left: 5%;
+    display: inline-block;
+}
+.contenedor{
+	position: relative;
+	height: 90%;
+	width: 9%;
+	background: yellow;
+	border-radius: 20%;
+	left: 15%;
+	top: 5%;
+	display: inline-block;
+}
+.linea1{
+	width: 90%;
+	position: relative;
+	height: 20px;
+	background-color: red;
+	top: -1px;
+	left: 5px;
+}
+.linea1 p{
+	font-size: 18px;
+	left: 30px;
+	text-align: center;
+}
+.estrellas1{
+	clip-path: polygon(50% 0, 68% 25%, 100% 35%, 80% 60%, 81% 93%, 48% 83%, 16% 93%, 18% 60%, 0% 35%, 33% 26%);
+	background-color: red;
+	width: 75px;
+	height: 75px;
+	position: relative;
+	left: 25px;	
+}
+.estrellas1 p{
+	font-size:11px;
+	text-align: center;
+	left: 12px;
+	color: yellow;
+}
+.contenedor2{
+	position: relative;
+	height: 90%;
+	width: 9%;
+	background: yellow;
+	border-radius: 20%;
+	left: 15%;
+	top: 5%;
+	display: inline-block;
+}
+.linea2{
+	width: 90%;
+	position: relative;
+	height: 20px;
+	background-color: red;
+	top: -1px;
+	left: 5px;
+}
+.linea2 p{
+	font-size: 18px;
+	left: 30px;
+	text-align: center;
+}
+.estrellas2{
+	clip-path: polygon(50% 0, 68% 25%, 100% 35%, 80% 60%, 81% 93%, 48% 83%, 16% 93%, 18% 60%, 0% 35%, 33% 26%);
+	background-color: red;
+	width: 75px;
+	height: 75px;
+	position: relative;
+	left: 25px;
+	
+}
+.estrellas2 p{
+	font-size:11px;
+	text-align: center;
+	left: 12px;
+	color: yellow;
+}
+.contenedor3{
+	position: relative;
+	height: 90%;
+	width: 9%;
+	background: yellow;
+	border-radius: 20%;
+	left: 15%;
+	top: 5%;
+	display: inline-block;
+}
+.estrellas3 p{
+	font-size:11px;
+	text-align: center;
+	left: 12px;
+	color: yellow;
+}
+.linea3{
+	width: 90%;
+	position: relative;
+	height: 20px;
+	background-color: red;
+	top: -1px;
+	left: 5px;
+}
+.linea3 p{
+	font-size: 18px;
+	left: 30px;
+	text-align: center;
+}
+.estrellas3{
+	clip-path: polygon(50% 0, 68% 25%, 100% 35%, 80% 60%, 81% 93%, 48% 83%, 16% 93%, 18% 60%, 0% 35%, 33% 26%);
+	background-color: red;
+	width: 75px;
+	height: 75px;
+	position: relative;
+	left: 25px;
+	
+}
+.estrellas3 p{
+	font-size:20px;
+	text-align: center;
+	left: 20px;
+	color: yellow;
+}
+.contenedor4{
+	position: relative;
+	height: 90%;
+	width: 9%;
+	background: yellow;
+	border-radius: 20%;
+	left: 15%;
+	top: 5%;
+	display: inline-block;
+}
+.linea4{
+	width: 90%;
+	position: relative;
+	height: 20px;
+	background-color: red;
+	top: -1px;
+	left: 5px;
+}
+
+.estrellas4{
+	clip-path: polygon(50% 0, 68% 25%, 100% 35%, 80% 60%, 81% 93%, 48% 83%, 16% 93%, 18% 60%, 0% 35%, 33% 26%);
+	background-color: red;
+	width: 75px;
+	height: 75px;
+	position: relative;
+	left: 25px;
+	top: 10px;
+}
+.estrellas4 p{
+	font-size:11px;
+	text-align: center;
+	left: 12px;
+	color: yellow;
+}
+.circulo{
+	position: relative;
+	background-color: red;
+	width: 56px;
+	height: 56px;
+	clip-path: circle(50% at 50% 50%);
+	left: 34px;
+	bottom: 55px;
+}
+.circulo2{
+	position: relative;
+	background-color: white;
+	width: 45px;
+	height: 45px;
+	clip-path: circle(50% at 50% 50%);
+	left: 39px;
+	bottom: 105px;
+}
+.circulo3{
+	position: relative;
+	background-color: #00BFFF;
+	width: 36px;
+	height: 36px;
+	clip-path: circle(50% at 50% 50%);
+	left: 44px;
+	bottom: 145px;
+}
+.barrita3{
+	position: relative;
+	width: 100%;
+	height: 20px;
+}
+.barrita3 p{
+	font-size: 10px;
+	top: 7px;
+	color: black;
+}
+.barrita4{
+	position: relative;
+	width: 100%;
+	height: 20px;
+	background-color: black;
+}
+.barrita4 p{
+	font-size: 10px;
+	color: white;
+	bottom: 7px;
+}
+/*bar
+/*barra inicial*/
+
+
+/*barra segundaria*/
+.grid-item2{
+	background-color:;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 2 / 1 / 2 / 6;
+}
+.grid-item2 img{
+	position: relative;
+	width: 35%;
+	height: 100%;
+	float: right;
+}
+.h1{
+	position: relative;
+	color: black;
+	float: left;
+	display: inline-block;
+	bottom:60%;
+	left: 10%;
+}
+/*barra segundaria*/
+
+/*baguette*/
+.grid-item3{
+	background-color:;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 3 / 1 / 7/ 3;
+}
+/* degradado */
+/* degradado */
+.cuadrado{
+	width: 40%;
+	height:20%;
+	background-image:linear-gradient( to left,white,rgba(255,255,255,0.1));
+	position: relative;
+	bottom: 450px;
+	left: 55%;
+}
+.pan1{
+	font-size: 10px;
+	position: relative;
+	left: 50%;
+}
+.pan2{
+	position: relative;
+	font-size: 10px;
+	left: 13%;
+	bottom:15px;
+}
+.estrella{
+	clip-path: polygon(50% 0, 68% 25%, 100% 35%, 80% 60%, 81% 93%, 48% 83%, 16% 93%, 18% 60%, 0% 35%, 33% 26%);
+	background-color: yellow;
+	width: 35px;
+	height: 35px;
+	bottom: 425px;
+	position: relative;
+	left: 75%;
+}
+.estrella p{
+	font-size: 13px;
+	top: 8px;
+	text-align: center;
+	color: red;
+	position: relative;
+}
+.estrella2{
+	clip-path: polygon(50% 0, 68% 25%, 100% 35%, 80% 60%, 81% 93%, 48% 83%, 16% 93%, 18% 60%, 0% 35%, 33% 26%);
+	background-color: yellow;
+	width: 35px;
+	height: 35px;
+	bottom: 420px;
+	position: relative;
+	left: 68%;
+}
+.estrella2 p{
+	font-size: 12px;
+	position: relative;
+	top: 10px;
+	color: red;
+	text-align: center;
+}
+
+.estrella3{
+	clip-path: polygon(50% 0, 68% 25%, 100% 35%, 80% 60%, 81% 93%, 48% 83%, 16% 93%, 18% 60%, 0% 35%, 33% 26%);
+	background-color: yellow;
+	width: 35px;
+	height: 35px;
+	bottom: 415px;
+	position: relative;
+	left: 60%;
+}
+.estrella3 p{
+	font-size: 12px;
+	text-align: center;
+	top:10px;
+	position: relative;
+	color: red;
+}
+.grid-item3 img{
+	position: relative;
+     width: 75%;
+     height: 80%;
+     border-radius: 50%;
+     left: 10%; 
+     border-color: #F0FF00;
+    border-style: double;
+    border-width: 5px;
+}
+/* contenedor 1*/
+.barra1{
+	background-color: red;
+	height:30px; 
+	width:120px;
+	position: relative;
+	margin-left: 65.5%;
+	bottom: 90px;
+}
+/*barra 1*/
+.p1{
+	position: relative;
+	 font-size: 15px;
+	 left: 75px;
+	 color: white;
+}
+.p2{
+   position: relative;
+   font-size: 10px;
+   bottom: 15px;
+   left: 20px;
+   color: white;
+}
+.p3{
+   position: relative;
+   font-size: 20px;
+   color: yellow;
+   bottom: 15px;
+   left: 30px;
+}
+/*barra 1*/
+/*barra 2*/
+.p4{
+    position: relative; 
+    font-size: 15px;
+	left: 70px;
+	color: white;
+}
+.p5{
+	position: relative; 
+	font-size: 10px; 
+	bottom: 15px;
+	left: 20px;
+	color: white
+}
+.p6{
+   position: relative;
+   font-size: 20px;
+   color: yellow;
+   bottom: 15px;
+   left: 30px;
+}
+/*barra 2*/
+/*barra 3*/
+.p7{
+    position: relative; 
+    font-size: 15px;
+	left: 70px;
+	color: white;
+}
+.p8{
+	position: relative; 
+	font-size: 10px; 
+	bottom: 15px;
+	left: 20px;
+	color: white
+}
+.p9{
+   position: relative;
+   font-size: 20px;
+   color: yellow;
+   bottom: 15px;
+   left: 30px;
+}
+/*barra 3*/
+/*barra 4*/
+.p10{
+	position: relative;
+	font-size: 15px;
+	color:black;
+	left: 25px;
+	top:5px ;
+}
+.p11{
+    position: relative;
+    font-size: 15px;
+    color:black;
+    left: 10px;
+    bottom: 3px;
+}
+.p12{
+    position: relative;
+    font-size: 15px;
+    color:white;
+    left: 10px;
+    bottom: 3px;
+}
+/*barra 4*/
+.triangulo1{
+	width: 50px;
+	height: 0px;
+	border-right: 50px solid red;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	position:relative;
+	margin-left: 50%;
+	bottom: 120px;
+	}
+.barra2{
+	background-color: red;
+    height:30px; 
+	width:140px;
+	position:relative;
+    margin-left: 58.7%;
+	bottom: 110px;
+}
+.triangulo2{
+	width: 50px;
+	height: 0px;
+	border-right: 50px solid red;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	position:relative;
+	bottom: 140px;
+	margin-left: 41.5%;
+	}
+
+.barra3{
+	background-color: red;
+    height:30px; 
+	width:160px;
+	position: relative;
+    margin-left: 51.8%;
+	bottom: 130px;
+}
+.triangulo3{
+	width: 50px;
+	height: 0px;
+	border-right: 50px solid red;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	position:relative;
+    bottom: 160px;
+	margin-left: 35%;
+	}
+
+.barra4{
+	background-color: yellow;
+    height:30px; 
+	width:180px;
+	position:relative;
+    margin-left: 44.9%;
+	bottom: 150px;
+}
+/* triangulo azul*/
+.triangulo4{
+	width: 50px;
+	height: 0px;
+	border-left:20px solid #00BFFF;
+	border-top: 15px solid transparent;
+	position:relative;
+    margin-left: 44.9%;
+    bottom: 210px;
+	}
+.barra5{
+	background-color: #00BFFF;
+	height:15px; 
+	width:60px;
+	position: relative;
+	margin-left:24.5%;
+	bottom: 180px;
+}
+/* triangulo gris */
+.triangulo5{
+	width: 50px;
+	height: 0px;
+	border-left:20px solid black;
+	border-bottom: 15px solid transparent;
+	position:relative;
+	margin-left: 44.9%;
+	bottom: 210px;
+	}
+.barra6{
+	background-color: black;
+	height:15px; 
+	width:60px;
+	position: relative;
+	margin-left: 24.5%;
+	bottom: 180px;
+}
+/*contenedor 1*/
+/*baguette*/
+
+
+/*inicio fila #1*/
+.grid-item4{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 3 / 3 / 6/ 3;
+}
+.grid-item4 img{
+	position: relative;
+	width:90%;
+    height:40%;
+    left: 6%;
+    bottom:20px;
+}
+/*barra 5*/
+.p13{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p14{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 5*/
+/*barra 6*/
+.p15{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p16{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 6*/
+/*barra 7*/
+.p17{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p18{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 35px;
+	bottom: 6px;
+}
+/*barra 7*/
+/*barra 8*/
+.p19{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 70px;
+}
+.p20{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p21{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+/*barra 8*/
+/*contenedor 2*/
+.barra7{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    top: 50px;
+}
+
+.barra8{
+	background-color: yellow;
+	height:15px; 
+	width:140px;
+	position: relative;
+	top:  35px;
+	margin-left: 43%;
+}
+.triangulo6{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: -20px;
+	margin-left: 43%;
+	}
+/*----------*/
+.barra9{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    bottom: -25px;
+	left: -20px;
+
+}
+.triangulo7{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 5px;
+	margin-left: 43%;
+	}
+
+	.barra10{
+	background-color: yellow;
+	height:15px;  
+	width:140px;
+	position: relative;
+    bottom: -10px;
+	margin-left: 43%;
+}
+/*--------------*/
+.barra12{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    bottom: 15px;
+	left: -20px;
+}
+.triangulo8{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position: relative;
+    bottom: 30px;
+	margin-left: 43%;
+	}
+.barra11{
+	background-color: yellow;
+	height:15px;  
+	width:140px;
+	position: relative;
+    bottom: ;
+	margin-left: 43%;
+
+}
+/*---------*/
+.barra13{
+	background-color: #00BFFF;
+	height:10px; 
+	width:50px;
+	position: relative;
+    bottom: 45px;
+    left: -20px;
+}
+
+.triangulo9{
+	width: 50px;
+	height: 10px;
+	border-left:17.5px solid #00BFFF;
+	border-top: 7.5px solid transparent;
+	position:relative;
+    bottom: 55px;
+	margin-left: 10.2%;
+	}
+
+.barra14{
+	background-color: black;
+	height:10px; 
+	width:50px;
+	position: relative;
+    bottom: 55px;
+    left: -20px;
+}
+
+.triangulo10{
+	width: 50px;
+	height: 10px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 65px;
+	margin-left: 10.2%;
+	}
+
+.barra15{
+	background-color: yellow;
+	height:20px; 
+	width:250px;
+    position: relative;
+	margin-left: 10%;
+	bottom: 25px;
+}
+/*contenedor2*/
+
+.grid-item5{
+	background-color:;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 3 / 4 / 6/ 4;
+}
+.grid-item5 img{
+	position: relative;
+	width:90%;
+    height:40%;
+    left: 6%;
+    bottom:20px;
+}
+/*barra 9*/
+.p22{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p23{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 9*/
+/*barra 10*/
+.p24{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p25{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 10*/
+/*barra 11*/
+.p26{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p27{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 11*/
+/*barra 12*/
+.p28{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p29{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p30{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 12*/
+/*conetedor3*/
+.barra16{
+	background-color: red;
+	height:15px;  
+	width:140px;
+	position: relative;
+	left:-20px;
+	top: 50px;
+}
+
+.barra17{
+	background-color: yellow;
+	height:15px;  
+	width:140px;
+	position: relative;
+	bottom:  -35px;
+	left: 120px;
+}
+
+
+.triangulo11{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: -20px;
+	left: 120px;
+	}
+/*----------*/
+.barra18{
+	background-color: red;
+	height:15px;  
+	width:140px;
+	position: relative;
+    bottom: -25px;
+	left: -20px;
+
+}
+.triangulo12{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 5px;
+	margin-left: 42%;
+	}
+
+	.barra19{
+	background-color: yellow;
+	height:15px;  
+	width:140px;
+	position: relative;
+    bottom: -10px;
+	margin-left: 42%;
+}
+/*--------------*/
+.triangulo13{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 30px;
+	left: 42%;
+	}
+
+	.barra20{
+	background-color: red;
+	height:15px;  
+	width:140px;
+	position: relative;
+    bottom:;
+	left: -20px;
+
+}
+
+	.barra21{
+	background-color: yellow;
+	height:15px;  
+	width:140px;
+	position: relative;
+    bottom: 15px;
+	margin-left: 42%;
+
+}
+/*---------*/
+	.barra22{
+	background-color: #00BFFF;
+	height:10px;  
+	width:50px;
+	position: relative;
+    bottom: 25px;
+	margin-left: -20px;
+}
+
+.triangulo14{
+	width: 50px;
+	height: 10px;
+	border-left:17.5px solid #00BFFF;
+	border-top: 7.5px solid transparent;
+	position:relative;
+    bottom: 65px;
+	margin-left: 10.2%;
+	}
+
+	.barra23{
+	background-color: black;
+	height:10px;  
+	width:50px;
+	position: relative;
+    bottom: 25px;
+	margin-left: -20px;
+}
+
+.triangulo15{
+	width: 50px;
+	height: 10px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 65px;
+	margin-left: 10%;
+	}
+
+.barra24{
+	background-color: yellow;
+	height:20px;  
+	width:250px;
+	position: relative;
+    bottom: 45px;
+	margin-left: 11%;
+}
+/*conetedor3*/
+.grid-item6{
+	background-color:;	
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 3 / 5 / 6/ 5;
+}
+.grid-item6 img{
+	position: relative;
+	width:90%;
+    height:40%;
+    left: 6%;
+    bottom:20px;
+}
+/*barra 13*/
+.p31{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p32{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 13*/
+/*barra 14*/
+.p33{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p34{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 14*/
+/*barra 15*/
+.p35{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p36{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 15*/
+/*barra 16*/
+.p37{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p38{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p39{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 16*/
+/*conetedor4*/
+.barra25{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    top:  50px;
+}
+
+.barra26{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -35px;
+}
+
+
+.triangulo16{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: -20px;
+	left: 43%;
+	}
+/*----------*/
+.barra27{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: -25px;
+
+}
+.triangulo17{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 5px;
+	left: 43%;
+	}
+
+	.barra28{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -10px;
+}
+/*--------------*/
+.triangulo18{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 30px;
+	left: 43%;
+	}
+
+	.barra29{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom:;
+
+}
+
+	.barra30{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left: 43%;
+    bottom: 15px;
+
+}
+/*---------*/
+	.barra31{
+	background-color: #00BFFF;
+	height:10px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 25px;
+}
+
+.triangulo19{
+	width: 50px;
+	height: 10px;
+	border-left:17.5px solid #00BFFF;
+	border-top: 7.5px solid transparent;
+	position:relative;
+    bottom: 65px;
+	margin-left: 10%;
+	}
+
+	.barra32{
+	background-color: black;
+	height:10px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 25px;
+}
+
+.triangulo20{
+	width: 50px;
+	height: 10px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 65px;
+	margin-left: 10%;
+	}
+
+.barra33{
+	background-color: yellow;
+	height:20px; 
+	width:244px;
+	position: relative;
+    left:10%;
+    bottom: 45px;
+}
+/*conetedor4*/
+/*final fila #1*/
+
+
+/*inico fila #2*/
+.grid-item7{
+	background-color: ;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 7 / 1 / 10/ 2;
+}
+.grid-item7 img{
+	position: relative;
+	width: 50px;
+    height:80px;
+    margin-left: 70%;
+    bottom: 17px;
+}
+/*barra 17*/
+.p40{
+  position: relative;
+  font-size: 12px;
+  color: white;
+  bottom: 1px;
+}
+.p41{
+  position: relative;
+  font-size: 12px;
+  color:black;
+  left: 20px;"
+}
+/*barra 17*/
+/*barra 18*/
+.p42{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p43{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 18*/
+/*barra 19*/
+.p44{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p45{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 19*/
+/*barra 20*/
+.p46{
+  position: relative;
+  font-size: 5px;
+  color:black;"
+}
+.p47{
+  position: relative;
+  font-size: 5px;
+  color:white;"
+}
+.p48{
+  position: relative;
+  font-size: 9px;
+  color:black;top: 2px;
+  left: 20px;
+}
+/*barra 20*/
+/*conetedor5*/
+.barra34{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: -20px;
+}
+.barra35{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: -5px;
+}
+.triangulo21{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:10px;
+	left: 30%;
+	}
+/*----------*/
+.barra36{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo22{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	left: 30%;
+	}
+.barra37{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 20px;
+}
+/*--------------*/
+.triangulo23{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 60px;
+	left: 30%;
+	}
+.barra38{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 30px;
+}
+.barra39{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 45px;
+}
+/*---------*/
+.barra40{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo24{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra41{
+	background-color: black;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo25{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra42{
+	background-color: yellow;
+	height:15px; 
+	width:114px;
+	position: relative;
+    left:;
+    bottom: 70px;
+}
+/*contendeor5*/
+.grid-item8{
+	background-color: ;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 7 / 2 / 10/ 2;
+}
+.grid-item8 img{
+	position: relative;
+	width: 50px;
+    height:80px;
+    margin-left: 70%;
+    bottom: 17px;
+}
+/*barra 21*/
+.p49{
+  position: relative;
+  font-size: 12px;
+  color: white;
+  bottom: 1px;
+}
+.p50{
+  position: relative;
+  font-size: 12px;
+  color:black;
+  left: 20px;"
+}
+/*barra 21*/
+/*barra 22*/
+.p51{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p52{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 23*/
+/*barra 24*/
+.p53{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p54{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 25*/
+/*barra 26*/
+.p55{
+  position: relative;
+  font-size: 5px;
+  color:black;"
+}
+.p56{
+  position: relative;
+  font-size: 5px;
+  color:white;"
+}
+.p57{
+  position: relative;
+  font-size: 9px;
+  color:black;top: 2px;
+  left: 20px;
+}
+/*barra 27*/
+/*conetedor6*/
+.barra43{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: -20px;
+}
+.barra44{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: -5px;
+}
+.triangulo26{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:10px;
+	left: 30%;
+	}
+/*----------*/
+.barra45{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo27{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	left: 30%;
+	}
+.barra46{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 20px;
+}
+/*--------------*/
+.triangulo28{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 60px;
+	left: 30%;
+	}
+.barra47{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 30px;
+}
+.barra48{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 45px;
+}
+/*---------*/
+.barra49{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo29{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra50{
+	background-color: black;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo30{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra51{
+	background-color: yellow;
+	height:15px; 
+	width:114px;
+	position: relative;
+    left:;
+    bottom: 70px;
+}
+/*contendeor6*/
+/*fila #2 larga*/
+.grid-item9{
+	background-color:rgb(245,245,220);
+	border: 3px  solid red;
+	border-radius: 15%;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 6 / 3 / 10/ 3;
+}
+.com{
+	position: relative;
+	width: 115%; 
+	height: 20%;
+	background: red;
+	border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    float: right;
+    left: 8%;
+    bottom: 10%;
+}
+.co{
+  position:relative;
+  font-size:50px;
+  left:20%;
+  color:white;
+  bottom: 60%;
+}
+.co2{
+  position:relative;
+  font-size: 17px;
+  left:30%;bottom: 10%;"
+}
+.co3{
+  position:relative;
+  font-size:8px;
+  bottom: 40%;
+}
+.grid-item9 img{
+	position: relative;
+	width: 30%;
+    height: 40%;
+    bottom: 40px;
+    left: 210px;
+}
+/*barra 24*/
+.p58{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p59{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 24*/
+/*barra 25*/
+.p60{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p61{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 25*/
+/*barra 26*/
+.p62{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p63{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 26*/
+/*barra 27*/
+.p64{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p65{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p66{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 27*/
+/*conetedor7*/
+.barra52{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 100px;
+}
+
+.barra53{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 115px;
+}
+
+
+.triangulo31{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 130px;
+	left: 43%;
+	}
+/*----------*/
+.barra54{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 125px;
+
+}
+.triangulo32{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 155px;
+	left: 43%;
+	}
+
+	.barra55{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 140px;
+}
+/*--------------*/
+.triangulo33{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 180px;
+	left: 43%;
+	}
+
+	.barra56{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 150px;
+
+}
+
+	.barra57{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 165px;
+
+}
+/*---------*/
+	.barra58{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 175px;
+}
+.triangulo34{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 205px;
+	margin-left: 10%;
+	}
+
+	.barra59{
+	background-color: black;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 175px;
+}
+
+.triangulo35{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 205px;
+	margin-left: 10%;
+	}
+
+.barra60{
+	background-color: yellow;
+	height:15px; 
+	width:244px;
+	position: relative;
+    left:11%;
+    bottom: 190px;
+}
+/*contendeor7*/
+.grid-item10{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 6 / 4 / 10/ 4;
+}
+.grid-item10 img{
+	position: relative;
+	width:90%;
+    height:40%;
+    left: 6%;
+    bottom:20px;
+}
+/*barra 28*/
+.p67{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p68{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 28*/
+/*barra 29*/
+.p69{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p70{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 29*/
+/*barra 30*/
+.p71{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p72{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 30*/
+/*barra 31*/
+.p73{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p74{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p75{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 31*/
+/*conetedor8*/
+.barra61{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: -70px;
+}
+.barra62{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -55px;
+}
+.triangulo36{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:-40px;
+	left: 43%;
+	}
+/*----------*/
+.barra63{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: -45px;
+}
+.triangulo37{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: -15px;
+	left: 43%;
+	}
+.barra64{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -30px;
+}
+/*--------------*/
+.triangulo38{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 10px;
+	left: 43%;
+	}
+.barra65{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: -20px;
+
+}
+
+.barra66{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -5px;
+
+}
+/*---------*/
+.barra67{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo39{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	margin-left: 10%;
+	}
+.barra68{
+	background-color: black;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo40{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	margin-left: 10%;
+	}
+.barra69{
+	background-color: yellow;
+	height:15px; 
+	width:244px;
+	position: relative;
+    left:10%;
+    bottom: 20px;
+}
+/*contendeor8*/
+.grid-item11{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 6 / 5 / 10/ 5;
+}
+.grid-item11 img{
+	position: relative;
+	width:90%;
+    height:40%;
+    left: 6%;
+    bottom:20px;
+}
+/*barra 32*/
+.p76{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p77{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 32*/
+/*barra 33*/
+.p78{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p79{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 33*/
+/*barra 34*/
+.p80{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p81{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 34*/
+/*barra 35*/
+.p82{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p83{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p84{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 35*/
+/*conetedor9*/
+.barra70{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: -70px;
+}
+.barra71{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -55px;
+}
+.triangulo41{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:-40px;
+	left: 43%;
+	}
+/*----------*/
+.barra72{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: -45px;
+}
+.triangulo42{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: -15px;
+	left: 43%;
+	}
+.barra73{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -30px;
+}
+/*--------------*/
+.triangulo43{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 10px;
+	left: 43%;
+	}
+.barra74{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: -20px;
+}
+.barra75{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: -5px;
+}
+/*---------*/
+.barra76{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo44{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	margin-left: 10%;
+	}
+.barra77{
+	background-color: black;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo45{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	margin-left: 10%;
+	}
+.barra78{
+	background-color: yellow;
+	height:15px; 
+	width:244px;
+	position: relative;
+    left:10%;
+    bottom: 20px;
+}
+/*contendeor9*/
+/*final fila #2*/
+
+
+/*inicio fila #3*/
+.grid-item12{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 10 / 1 / 13/ 2;
+}
+.grid-item12 img{
+	position: relative;
+	width: 50px;
+    height:80px;
+    margin-left: 70%;
+    bottom: 17px;
+}
+/*barra 36*/
+.p85{
+  position: relative;
+  font-size: 12px;
+  color: white;
+  bottom: 1px;
+}
+.p86{
+  position: relative;
+  font-size: 12px;
+  color:black;
+  left: 20px;"
+}
+/*barra 36*/
+/*barra 37*/
+.p87{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p88{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 37*/
+/*barra 38*/
+.p89{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p90{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 38*/
+/*barra 39*/
+.p91{
+  position: relative;
+  font-size: 5px;
+  color:black;"
+}
+.p92{
+  position: relative;
+  font-size: 5px;
+  color:white;"
+}
+.p93{
+  position: relative;
+  font-size: 9px;
+  color:black;top: 2px;
+  left: 20px;
+}
+/*barra 39*/
+/*conetedor10*/
+.barra79{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: -20px;
+}
+.barra80{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: -5px;
+}
+.triangulo46{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:10px;
+	left: 30%;
+	}
+/*----------*/
+.barra81{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo47{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	left: 30%;
+	}
+.barra82{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 20px;
+}
+/*--------------*/
+.triangulo48{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 60px;
+	left: 30%;
+	}
+.barra83{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 30px;
+}
+.barra84{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 45px;
+}
+/*---------*/
+.barra85{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo49{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra86{
+	background-color: black;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo50{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra87{
+	background-color: yellow;
+	height:15px; 
+	width:114px;
+	position: relative;
+    left:;
+    bottom: 70px;
+}
+/*contendeor10*/
+.grid-item13{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 10 / 2 / 13/ 3;
+}
+.grid-item13 img{
+	position: relative;
+	width: 50px;
+    height:80px;
+    margin-left: 70%;
+    bottom: 17px;
+}
+/*barra 40*/
+.p94{
+  position: relative;
+  font-size: 12px;
+  color: white;
+  bottom: 1px;
+}
+.p95{
+  position: relative;
+  font-size: 12px;
+  color:black;
+  left: 20px;"
+}
+/*barra 40*/
+/*barra 41*/
+.p96{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p97{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 41*/
+/*barra 42*/
+.p98{
+  position: relative;
+   font-size: 12px
+   ;color: white;
+  bottom: 1px;"
+}
+.p99{
+  position: relative;
+  font-size: 11px;
+  color:black;
+  left: 20px;"
+}
+/*barra 42*/
+/*barra 43*/
+.p100{
+  position: relative;
+  font-size: 5px;
+  color:black;"
+}
+.p101{
+  position: relative;
+  font-size: 5px;
+  color:white;"
+}
+.p102{
+  position: relative;
+  font-size: 9px;
+  color:black;top: 2px;
+  left: 20px;
+}
+/*barra 43*/
+/*conetedor11*/
+.barra88{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: -20px;
+}
+.barra89{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: -5px;
+}
+.triangulo51{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:10px;
+	left: 30%;
+	}
+/*----------*/
+.barra90{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 5px;
+}
+.triangulo52{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 35px;
+	left: 30%;
+	}
+.barra91{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 20px;
+}
+/*--------------*/
+.triangulo53{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 60px;
+	left: 30%;
+	}
+.barra92{
+	background-color: red;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:-20px;
+    bottom: 30px;
+}
+.barra93{
+	background-color: yellow;
+	height:15px; 
+	width:70px;
+	position: relative;
+    left:30%;
+    bottom: 45px;
+}
+/*---------*/
+.barra94{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo54{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra95{
+	background-color: black;
+	height:7.5px; 
+	width:20px;
+	position: relative;
+    left:-20px;
+    bottom: 55px;
+}
+.triangulo55{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 85px;
+	margin-left:;
+	}
+.barra96{
+	background-color: yellow;
+	height:15px; 
+	width:114px;
+	position: relative;
+    left:;
+    bottom: 70px;
+}
+/*contendeor11*/
+.grid-item14{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 10 / 3 / 13/ 4;
+}
+.grid-item14 img{
+	position: relative;
+	width: 70px;
+    height:95px;
+    left: 70%;
+    bottom: 17px;
+}
+/*barra 44*/
+.p103{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p104{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 44*/
+/*barra 45*/
+.p105{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p106{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 45*/
+/*barra 46*/
+.p107{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p108{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 46*/
+/*barra 47*/
+.p109{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p110{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p111{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 47*/
+/*conetedor12*/
+.barra97{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom:;
+}
+.barra98{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 15px;
+}
+.triangulo56{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:30px;
+	left: 43%;
+	}
+/*----------*/
+.barra99{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 25px;
+}
+.triangulo57{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 55px;
+	left: 43%;
+	}
+.barra100{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 40px;
+}
+/*--------------*/
+.triangulo58{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 80px;
+	left: 43%;
+	}
+.barra101{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 50px;
+}
+.barra102{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 65px;
+}
+/*---------*/
+.barra103{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 75px;
+}
+.triangulo59{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 105px;
+	margin-left: 10%;
+	}
+.barra104{
+	background-color: black;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 75px;
+}
+.triangulo60{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 105px;
+	margin-left: 10%;
+	}
+.barra105{
+	background-color: yellow;
+	height:15px; 
+	width:244px;
+	position: relative;
+    left:10%;
+    bottom: 90px;
+}
+/*contendeor12*/
+.grid-item15{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 10 / 4 / 13/ 5;
+}
+.grid-item15 img{
+	position: relative;
+	width: 70px;
+    height:95px;
+    left: 70%;
+    bottom: 17px;
+}
+/*barra 48*/
+.p112{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p113{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 48*/
+/*barra 49*/
+.p114{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p115{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 49*/
+/*barra 50*/
+.p116{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p117{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 50*/
+/*barra 51*/
+.p118{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p119{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p120{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 51*/
+/*conetedor13*/
+.barra106{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom:;
+}
+.barra107{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 15px;
+}
+.triangulo61{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:30px;
+	left: 43%;
+	}
+/*----------*/
+.barra108{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 25px;
+}
+.triangulo62{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 55px;
+	left: 43%;
+	}
+.barra109{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 40px;
+}
+/*--------------*/
+.triangulo63{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 80px;
+	left: 43%;
+	}
+.barra110{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 50px;
+}
+.barra111{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 65px;
+}
+/*---------*/
+.barra112{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 75px;
+}
+.triangulo64{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 105px;
+	margin-left: 10%;
+	}
+.barra113{
+	background-color: black;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 75px;
+}
+.triangulo65{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 105px;
+	margin-left: 10%;
+	}
+.barra114{
+	background-color: yellow;
+	height:15px; 
+	width:244px;
+	position: relative;
+    left:10%;
+    bottom: 90px;
+}
+/*contendeor13*/
+.grid-item16{
+	background-color: white;
+	padding: 20px;
+	font-size: 30px;
+	grid-area: 10 / 5 / 13/ 6;
+}
+.grid-item16 img{
+	position: relative;
+	width: 70px;
+    height:95px;
+    left: 70%;
+    bottom: 17px;
+}
+/*barra 52*/
+.p121{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p122{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 52*/
+/*barra 53*/
+.p123{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p124{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 53*/
+/*barra 54*/
+.p125{
+	position: relative;
+	font-size: 12px;
+	color: white;
+	left: 50px;
+}
+.p126{
+	position: relative;
+	font-size: 12px;
+	color:black;
+	left: 60px;"
+}
+/*barra 54*/
+/*barra 55*/
+.p127{
+   position: relative;
+   font-size: 9px;
+   color:black;
+   left:10px;
+   bottom: 2px;
+}
+.p128{
+    position: relative;
+    font-size: 9px;
+    color:white;
+    left:10px;
+    bottom: 2px;
+}
+.p129{
+   position: relative;
+   font-size: 12px;
+   color:black;
+   left: 60px;
+}
+/*barra 55*/
+/*conetedor14*/
+.barra115{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom:;
+}
+.barra116{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 15px;
+}
+.triangulo66{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom:30px;
+	left: 43%;
+	}
+/*----------*/
+.barra117{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 25px;
+}
+.triangulo67{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 55px;
+	left: 43%;
+	}
+.barra118{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 40px;
+}
+/*--------------*/
+.triangulo68{
+	width: 50px;
+	height: 0px;
+	border-left:  20px solid red;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	position:relative;
+    bottom: 80px;
+	left: 43%;
+	}
+.barra119{
+	background-color: red;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:-20px;
+    bottom: 50px;
+}
+.barra120{
+	background-color: yellow;
+	height:15px; 
+	width:144px;
+	position: relative;
+    left:43%;
+    bottom: 65px;
+}
+/*---------*/
+.barra121{
+	background-color: #00BFFF;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 75px;
+}
+.triangulo69{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid #00BFFF;
+	border-top:  7.5px solid transparent;
+	position:relative;
+    bottom: 105px;
+	margin-left: 10%;
+	}
+.barra122{
+	background-color: black;
+	height:7.5px; 
+	width:50px;
+	position: relative;
+    left:-20px;
+    bottom: 75px;
+}
+.triangulo70{
+	width: 50px;
+	height: 0px;
+	border-left:17.5px solid black;
+	border-bottom:  7.5px solid transparent;
+	position:relative;
+    bottom: 105px;
+	margin-left: 10%;
+	}
+.barra123{
+	background-color: yellow;
+	height:15px; 
+	width:244px;
+	position: relative;
+    left:10%;
+    bottom: 90px;
+}
+/*contendeor14*/
+/*final fila #3*/
+/*grandes*/
+.co4{
+  position:relative;
+  font-size:8px;
+  bottom: 90%;
+}
+.co5{
+  position:relative;
+  font-size:8px;
+  bottom: 90%;
+}
+.co6{
+  position:relative;
+  font-size:8px;
+  bottom: 90%;
+}
+.co7{
+  position:relative;
+  font-size:8px;
+  bottom: 70%;
+}
+.co8{
+  position:relative;
+  font-size:8px;
+  bottom: 70%;
+}
+/*grandes*/
+/*pequeñas*/
+.co9{
+  position:relative;
+  font-size:8px;
+  bottom: 135%;
+}
+.co10{
+  position:relative;
+  font-size:8px;
+  bottom: 135%;
+}
+.co11{
+  position:relative;
+  font-size:8px;
+  bottom: 135%;
+}
+/*pequeñas*/
+/*mas pequeñas*/
+.co12{
+  position:relative;
+  font-size:8px;
+  bottom: 135%;
+}
+.co13{
+  position:relative;
+  font-size:8px;
+  bottom: 135%;
+}
+.co14{
+  position:relative;
+  font-size:8px;
+  bottom: 135%;
+}
+.co15{
+  position:relative;
+  font-size:8px;
+  bottom: 135%;
+}
+/*mas pequeñas*/
+.estrellas3d{
+clip-path: polygon(50% 0%, 62% 34%, 100% 36%, 68% 57%, 79% 91%, 51% 69%, 21% 91%, 31% 55%, 0 36%, 38% 34%);
+	background-color: #BF0300;
+	width: 205px;
+	height: 205px;
+	position: absolute;
+	left: 1%;
+	bottom:22%;	
+}
+.estrellas23d{
+clip-path: polygon(50% 0%, 62% 34%, 100% 36%, 68% 57%, 79% 91%, 51% 69%, 21% 91%, 31% 55%, 0 36%, 38% 34%);
+	background-color:  #400500;
+	width: 205px;
+	height: 205px;
+	position: absolute;
+	left:-1px;
+	bottom: 22%;	
+}
+.estrellas33d{
+clip-path: polygon(50% 0%, 62% 34%, 100% 36%, 68% 57%, 79% 91%, 51% 69%, 21% 91%, 31% 55%, 0 36%, 38% 34%);
+	background-color:  #400500;
+	width: 205px;
+	height: 205px;
+	position: absolute;
+	left: -1%;
+	bottom: 22%;	
+}
+.barrita{
+   position: absolute;
+   width: 29px;
+   height: 18px;
+   background-color:#400500;
+   top: 45.5%;
+   left: 6.5%;
+}
+.barrita1{
+   position: absolute;
+   width: 26px;
+   height: 16px;
+   background-color:#400500;
+   bottom: 157px;
+   left: 2.5%;
+}
