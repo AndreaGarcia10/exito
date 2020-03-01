@@ -1,0 +1,15 @@
+.carousel-item img{height: 400px;width: 100%;}
+.circle .card{box-shadow: none;border: none;text-align: center;}
+.circle img{width: 100%;height: 150px;border-radius: 50%;padding: 10px;}
+.texto{text-align: center;}
+#circulos{padding: 5%;}
+#cuadros{padding: 6%;background-color: #ccc;text-align: center;}.cuadros{display: inline-flex;}
+.circle{display: inline-flex;}
+.personas img{width: auto;height: 150px;border-radius: 50%;padding: 5%;}.personas{text-align: center;padding: 3%;}.per{display: inline-flex;}
+.personas .card{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}.personas .card-body{background-color: rgba(204, 204, 204, 0.856);}
+.negro{background-color: rgba(0, 0, 0, 0.705);}.negro .texto{color: white;}.anuncios{display: inline-flex;margin:5%;}.anuncios img{width: 100%;height: 150px;padding: 5%;}
+.anuncios .card-body{background-color: rgba(204, 204, 204, 0.856);}
+.calendar img{height: 350px;width: 350px;}.calendar{display: inline-flex;margin-left: 3%;}.calendario{padding: 5%;text-align: center;}
+.acerca{padding: 2%;}.z{padding: 4%;}.acerca h1{border-bottom: solid #ccc 2px;}
+.form{background-color: blue;color: white;text-align: center;padding: 2%;}.h{padding: 2%;}.form .btn{background-color: yellow;}
+.a{border-right: solid #ccc 2px;border-bottom: solid #ccc 2px;padding: 2%;}.b{border-bottom: solid #ccc 2px;padding: 2%;}.c{border-right: solid #ccc 2px;padding: 2%;}

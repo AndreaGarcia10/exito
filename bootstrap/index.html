@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+</head>
+
+<body>
+    <!--barra nav-->
+    <div id="nav" class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpg" width="100" height="50" alt="">
+            </a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">sectores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">reconocidas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">discoteca</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--slider-->
+
+    <div id="slider" class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/la70.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/la33.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/lachismosa.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- circulos-->
+    <div id="circulos" class="container-fluid">
+        <div class="container texto">
+            <h1>Reconocidas</h1>
+            <p>discotecas reconocidas por todo mundo en medellin y sectores en que se destaca la rumba. algunos son la
+                70 medellin, la 33 medellin, buenos aires medellin y la 45 de manrique donde se destacan discotecas como
+                jenny lao, la lupita, el divino, the rouse, entre otras discotecas que son las mas visitadas.</p>
+        </div>
+        <div class="container circle">
+            <div class="card" style="width: 18rem;">
+                <img src="img/lachismosa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>la chismosa</h4>
+                    <p class="card-text">La Chismosa Llano Lleras es un referente de la rumba en Medellín.
+                        por qué el lugar esta para complacerte..</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/therouse.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>the rouse</h4>
+                    <p class="card-text">CARNAVAL: Kit de cumpleaños con estuche regalo con botella de champaña rosada +
+                        copa de cristal.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/eldivino.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>el divino</h4>
+                    <p class="card-text">POLÍTICAS RESERVAS. Reservas:sin límite de personas. Cover: después de las
+                        10:00pm $10.000.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/jenilao.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>jenny lao</h4>
+                    <p class="card-text">jenny lao en la 70 es una discoteca a la que va puro negrito.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/california.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>california club</h4>
+                    <p class="card-text"></p>tambien es una discoteca a la que va puro negrito</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--cards con imagenes a los lados y boton-->
+    <div id="cuadros" class="container-fluid">
+        <div class="container texto">
+            <h1>comparando...</h1>
+        </div>
+        <div class="cuadros">
+            <div class="card mb-3" style="max-width: 540px;margin-right: 5%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="img/jenilao.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">jenilao</h5>
+                            <p class="card-text">es en la 70
+                                es de puro negrito</p>
+                            <p class="card-text"><small class="text-muted">es mas caro</small></p>
+                            <button type="button" class="btn btn-primary">ver mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="img/california.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">California club</h5>
+                            <p class="card-text">es en la 33
+                                tambien va puro negrito</p>
+                            <p class="card-text"><small class="text-muted">pero es mas barato</small></p>
+                            <button type="button" class="btn btn-primary">ver mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--cards personas-->
+    <div class="container-fluid personas">
+        <h1>Sectores</h1>
+        <div class="container per row">
+            <div class="card col-sm-2 col-md-3" style="width: 18rem;">
+                <img src="img/la33.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>la 33</h4>
+                    <p class="card-text">busque como guiarse por google maps o waze, asi llega a todos lados
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-sm-2 col-md-3" style="width: 18rem;">
+                <img src="img/la70.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>la 70</h4>
+                    <p class="card-text">busque como guiarse por google maps o waze, asi llega a todos lados
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-sm-2 col-md-3" style="width: 18rem;">
+                <img src="img/bar2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>la 45, manrique</h4>
+                    <p class="card-text">busque como guiarse por google maps o waze, asi llega a todos lados
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-sm-2 col-md-3 " style="width: 18rem;">
+                <img src="img/bar3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Buenos aires</h4>
+                    <p class="card-text">busque como guiarse por googlr maps o waze, asi llega a todos lados
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--seccion negra-->
+    <div class="container-fluid negro ">
+        <div class="container texto sm-12">
+            <h1>mejores opciones</h1>
+            <p>Medellín además de ser conocida por ser una ciudad innovadora, por la calidez de sus habitantes, la
+                belleza de sus paisajes y su historia de desarrollo es bastante llamativa por su vida nocturna. La
+                ciudad cuenta con gran variedad de establecimientos con distintos ambientes (hay para todos los gustos)
+                de distintos precios y planes para disfrutar.</p>
+        </div>
+        <ul class="nav justify-content-center sm-12">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">bien</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">malas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">regular</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">comunidad lgtbi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">fondas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">años 70 y 80</a>
+            </li>
+        </ul>
+        <div class="anuncios row">
+            <div class="card sm-2 md-3" style="width: 18rem;">
+                <img src="img/bar3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>la santa</h4>
+                </div>
+            </div>
+            <div class="card sm-2 md-3" style="width: 18rem;">
+                <img src="img/eldivino.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>el divino</h4>
+                </div>
+            </div>
+            <div class="card sm-2 md-3" style="width: 18rem;">
+                <img src="img/therouse.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>the rouse</h4>
+                </div>
+            </div>
+            <div class="card sm-2 md-3" style="width: 18rem;">
+                <img src="img/lachismosa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>la chismosa</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid calendario ">
+        <div class="container texto">
+            <h1>mejores opciones</h1>
+            <p>Medellín además de ser conocida por ser una ciudad innovadora, por la calidez de sus habitantes, la
+                belleza de sus paisajes y su historia de desarrollo es bastante llamativa por su vida nocturna. La
+                ciudad cuenta con gran variedad de establecimientos con distintos ambientes (hay para todos los gustos)
+                de distintos precios y planes para disfrutar.</p>
+        </div>
+        <div class="calendar sm-12 md-4"><img src="img/logo.jpg" alt=""></div>
+        <div class="calendar sm-12 md-4"><img src="img/logo.jpg" alt=""></div>
+        <div class="calendar sm-12 md-4"><img src="img/logo.jpg" alt=""></div>
+        <button type="button" class="btn btn-primary sm-12">ver mas</button>
+    </div>
+    <!--el acerca de nosotros-->
+    <div class="container-fluid acerca">
+        <div class="container texto">
+            <h1 border-bottom="1px solid #ccc">mejores opciones</h1>
+            <p>Medellín además de ser conocida por ser una ciudad innovadora, por la calidez de sus habitantes, la
+                belleza de sus paisajes y su historia de desarrollo es bastante llamativa por su vida nocturna. La
+                ciudad cuenta con gran variedad de establecimientos con distintos ambientes (hay para todos los gustos)
+                de distintos precios y planes para disfrutar.</p>
+        </div>
+        <div class="row z">
+            <div class="col-lg-6 row no-gutters a">
+                <img class="col-lg-4 rounded-circle"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                    alt="Generic placeholder image" width="140" height="140">
+                <p class="card-text col-md-8">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam
+                    id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+                    at eros. Praesent commodo cursus magna.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-6 row no-gutters b">
+                <img class="rounded-circle col-md-4"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                    alt="Generic placeholder image" width="140" height="140">
+                <p class="col-md-8">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+                    sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus
+                    commodo, tortor mauris condimentum nibh.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-6 row no-gutters c">
+                <img class="rounded-circle col-md-4"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                    alt="Generic placeholder image" width="140" height="140">
+                <p class="col-md-8">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                    Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-6 row no-gutters d">
+                <img class="rounded-circle col-md-4"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                    alt="Generic placeholder image" width="140" height="140">
+                <p class="col-md-8">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                    Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div>
+    <div class="container-fluid form">
+        <h1>we will found love</h1>
+        <div class="row h">
+            <div class="col-md-3 mb-3">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                    Valid first name is required.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                    Valid last name is required.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                    Valid last name is required.
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary col-sm-3">ver mas</button>
+        </div>
+        <p>jhsgfbwiuebf su madre kahr quendownakeh</p>
+    </div>
+    <div class="container-fluid contacto"><div class="container texto">
+        <h1>mejores opciones</h1>
+        <p>Medellín además de ser conocida por ser una ciudad innovadora, por la calidez de sus habitantes, la
+            belleza de sus paisajes y su historia de desarrollo es bastante llamativa por su vida nocturna. La
+            ciudad cuenta con gran variedad de establecimientos con distintos ambientes (hay para todos los gustos)
+            de distintos precios y planes para disfrutar.</p>
+    </div></div>
+    <div class="container-fluid footer"></div>
+    <!--scipts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
