@@ -13,3 +13,4 @@
 .acerca{padding: 2%;}.z{padding: 4%;}.acerca h1{border-bottom: solid #ccc 2px;}
 .form{background-color: blue;color: white;text-align: center;padding: 2%;}.h{padding: 2%;}.form .btn{background-color: yellow;}
 .a{border-right: solid #ccc 2px;border-bottom: solid #ccc 2px;padding: 2%;}.b{border-bottom: solid #ccc 2px;padding: 2%;}.c{border-right: solid #ccc 2px;padding: 2%;}
+.footer{background-color: rgb(4, 4, 99);display: inline-flex;color:white;}.footer p{margin: 5%;border-right: solid white;padding-right: 2%;}
